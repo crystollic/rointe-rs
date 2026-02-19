@@ -1,0 +1,6 @@
+/target
+
+# Credentials — never commit these
+.env
+auth.json
+rointe-mqtt.toml

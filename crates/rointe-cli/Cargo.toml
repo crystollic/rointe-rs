@@ -1,0 +1,20 @@
+[package]
+name = "rointe-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CLI tool for controlling Rointe radiators"
+publish = false
+
+[[bin]]
+name = "rointe-cli"
+path = "src/main.rs"
+
+[dependencies]
+rointe-core = { path = "../rointe-core" }
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive", "env"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1"
+chrono = "0.4"
