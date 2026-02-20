@@ -7,7 +7,7 @@ description = "Rust SDK for controlling Rointe WiFi radiators via Firebase Realt
 keywords = ["rointe", "radiator", "firebase", "iot", "smart-home"]
 categories = ["api-bindings", "hardware-support"]
 repository = "https://github.com/crystollic/rointe-rs"
-readme = "../../README.md"
+readme = "README.md"
 rust-version = "1.75"
 
 [dependencies]

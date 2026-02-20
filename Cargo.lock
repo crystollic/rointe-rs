@@ -1167,7 +1167,7 @@ dependencies = [
 
 [[package]]
 name = "rointe-cli"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "chrono",
@@ -1180,7 +1180,7 @@ dependencies = [
 
 [[package]]
 name = "rointe-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "reqwest",
